@@ -1,0 +1,216 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 49px;
+    background-color: #212121;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px ;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    width: 100%;
+    position: absolute;
+    height: 87px;
+    background-color: rgba(0,0,0, 0.6)
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    display: block;
+    font-size: 13px;
+    font-weight: 100;
+    color: #ffffff;
+    margin-top: 6px;
+}
+
+.subheader .subheader_call {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 19px;
+    text-align: right;
+}
+
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;   
+    line-height: 12px;
+    text-transform: uppercase;
+    text-align: right;
+    text-decoration: none;
+}
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.promo {
+    min-height: 800px;
+    background: url('../img/back/uber_bg.png') center center/cover no-repeat;
+    padding: 150px 0 185px 0;
+}
+
+.promo .promo_header {
+    font-weight: 900;
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 60px;
+    margin: 0;
+}
+
+.promo .promo_subheader {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+}
+
+.promo .promo_descr {
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 115px auto 186px auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.reasons {
+    padding: 18px 0 65px 0;
+    background: #F2F2F2;
+}
+
+.reasons .reasons_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.reasons .reasons_label {
+    display: block;
+    margin: 5px auto 33px auto;
+    height: 27px;
+    width: 115px;
+    border-radius: 0px;
+    background: #000000;
+    font-weight: 300;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    justify-content: center;
+
+}
+
+.reasons .reasons_wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.reasons .reasons_wrapper .reasons_item {
+    display: flex;
+    margin-top: 10px;
+}
+
+.reasons .reasons_wrapper .reasons_item .reasons_round {
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100% ;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.reasons .reasons_wrapper .reasons_item .reasons_descr {
+    height: 150px;
+    width: 371px;
+    margin-left: 25px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+}
+
+.reasons .reasons_wrapper .reasons_item .reasons_descr span{
+    color: #1EACC7;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+
